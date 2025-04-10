@@ -1,0 +1,29 @@
+[3] 08:02:22: Log started for 'C:\Tosca_Projects\Tosca_Workspaces\TestAutomationProject1\TestAutomationProject1.tws'
+[3] 08:02:22: Log level: 4
+[3] 08:02:22: Release: 16.0.5.3129
+[3] 08:02:24: Execution Approval is disabled.
+[3] 08:02:24: Using the following service discovery: http://localhost/#/
+[3] 08:02:24: ShouldSetAuthorizationHeader = False.
+[3] 08:02:24:  + CloudDistributedExecutionAddIn: CloudDistributedExecutionAddIn 16.0.5.3129 (3129)
+[3] 08:02:24:  + DistributedExecutionAddIn: DistributedExecutionAddIn 16.0.5.3129 (3129)
+[3] 08:02:24:  + ElasticExecutionGridAddIn: ElasticExecutionGridAddIn 16.0.5.3129 (3129)
+[3] 08:02:24:  - ExecutionApprovalAddIn: ExecutionApprovalAddIn 16.0.5.3129 (3129)
+[3] 08:02:24:  + ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 16.0.5.3129 (3129)
+[3] 08:02:24:  + ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 16.0.5.3129 (3129)
+[3] 08:02:24:  + IntegrationManagementAddIn: IntegrationManagementAddIn 16.0.5.3129 (3129)
+    + : SAPSolutionManagerIntegration 16.0.5.3129 (3129)
+[3] 08:02:24: Search started on 1 objects for query '->PROJECT->SUBPARTS:TCFolder[Name=="Execution"]->SUBPARTS:TCFolder=>SUBPARTS:InteractiveSession'
+[3] 08:02:24: Searcher found 0 results in 204.2543 ms
+[3] 08:02:24:  + OptIntAddIn: OptIntAddIn 16.0.5.3129 (3129)
+[3] 08:02:24:  + QTestIntegrationAddIn: QTestIntegrationAddIn 16.0.5.3129 (3129)
+[3] 08:02:24:  + RemoteControl: RemoteControlAddIn 16.0.5.3129 (3129)
+[3] 08:02:24:  + Reporting: ReportingAddIn 16.0.5.3129 (3129)
+[3] 08:02:24:  + ReportingUI: ReportingUIAddIn 16.0.5.3129 (3129)
+[3] 08:02:24:  + RequirementsManagementAddIn: RequirementsManagement 16.0.5.3129 (3129)
+[3] 08:02:24:  + RequirementsManagementUIAddIn: RequirementsManagementUI 16.0.5.3129 (3129)
+[3] 08:02:24:  + SAPCloudAlmAddIn: SAPCloudAlmAddIn 16.0.5.3129 (3129)
+[3] 08:02:24:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 16.0.5.3129 (3129)
+[3] 08:02:24:  + TestCaseDesign: TestCaseDesign 16.0.5.3129 (3129)
+[3] 08:02:24:  + ControlFlowDiagram: TestCaseVisualizationAddIn 16.0.5.3129 (3129)
+[3] 08:02:24:  + XDefinitions: XDefinitions 16.0.5.3129 (3129)
+[3] 08:02:24:  + XDefinitionsUI: XDefinitionsUI 16.0.5.3129 (3129)

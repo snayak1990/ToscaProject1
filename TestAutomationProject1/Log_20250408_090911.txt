@@ -1,0 +1,31 @@
+[3] 09:09:11: Log started for 'C:\Tosca_Projects\Tosca_Workspaces\TestAutomationProject1\TestAutomationProject1.tws'
+[3] 09:09:11: Log level: 4
+[3] 09:09:11: Release: 16.0.5.3129
+[3] 09:09:11: Execution Approval is disabled.
+[3] 09:09:11: Using the following service discovery: http://localhost/#/
+[3] 09:09:11: ShouldSetAuthorizationHeader = False.
+[3] 09:09:11:  + CloudDistributedExecutionAddIn: CloudDistributedExecutionAddIn 16.0.5.3129 (3129)
+[3] 09:09:11:  + DistributedExecutionAddIn: DistributedExecutionAddIn 16.0.5.3129 (3129)
+[3] 09:09:11:  + ElasticExecutionGridAddIn: ElasticExecutionGridAddIn 16.0.5.3129 (3129)
+[3] 09:09:11:  - ExecutionApprovalAddIn: ExecutionApprovalAddIn 16.0.5.3129 (3129)
+[3] 09:09:11:  + ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 16.0.5.3129 (3129)
+[3] 09:09:11:  + ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 16.0.5.3129 (3129)
+[3] 09:09:11:  + IntegrationManagementAddIn: IntegrationManagementAddIn 16.0.5.3129 (3129)
+    + : SAPSolutionManagerIntegration 16.0.5.3129 (3129)
+[3] 09:09:11: Search started on 1 objects for query '->PROJECT->SUBPARTS:TCFolder[Name=="Execution"]->SUBPARTS:TCFolder=>SUBPARTS:InteractiveSession'
+[3] 09:09:11: Searcher found 0 results in 50.744 ms
+[3] 09:09:11:  + OptIntAddIn: OptIntAddIn 16.0.5.3129 (3129)
+[3] 09:09:11:  + QTestIntegrationAddIn: QTestIntegrationAddIn 16.0.5.3129 (3129)
+[3] 09:09:11:  + RemoteControl: RemoteControlAddIn 16.0.5.3129 (3129)
+[3] 09:09:11:  + Reporting: ReportingAddIn 16.0.5.3129 (3129)
+[3] 09:09:11:  + ReportingUI: ReportingUIAddIn 16.0.5.3129 (3129)
+[3] 09:09:11:  + RequirementsManagementAddIn: RequirementsManagement 16.0.5.3129 (3129)
+[3] 09:09:11:  + RequirementsManagementUIAddIn: RequirementsManagementUI 16.0.5.3129 (3129)
+[3] 09:09:11:  + SAPCloudAlmAddIn: SAPCloudAlmAddIn 16.0.5.3129 (3129)
+[3] 09:09:11:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 16.0.5.3129 (3129)
+[3] 09:09:11:  + TestCaseDesign: TestCaseDesign 16.0.5.3129 (3129)
+[3] 09:09:12:  + ControlFlowDiagram: TestCaseVisualizationAddIn 16.0.5.3129 (3129)
+[3] 09:09:12:  + XDefinitions: XDefinitions 16.0.5.3129 (3129)
+[3] 09:09:12:  + XDefinitionsUI: XDefinitionsUI 16.0.5.3129 (3129)
+[3] 09:09:12: TCShell started (16.0.5.3129)
+[4] 09:09:12: Current = 'TestAutomationProject1'

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TCWorkspace xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WorkspaceRepository>
+    <RepoClass>SQLiteRepository</RepoClass>
+    <DatabasePathAndName>.\Repository\santoshDex.db</DatabasePathAndName>
+    <Database>C:\Tosca_Projects\Tosca_Workspaces\santoshDex\Repository\santoshDex.db</Database>
+    <DatabaseUser />
+    <DatabasePwd />
+    <DatabaseSchema />
+  </WorkspaceRepository>
+  <CommonRepository>
+    <RepoClass>SQLiteRepository</RepoClass>
+    <DatabasePathAndName>C:\Tosca_Projects\TOSCA_CommonRepositories\santoshDex\CommonRepository\CommonRepository.db</DatabasePathAndName>
+    <Database>C:\Tosca_Projects\TOSCA_CommonRepositories\santoshDex\CommonRepository\CommonRepository.db</Database>
+    <DatabaseUser />
+    <DatabasePwd />
+    <DatabaseSchema />
+  </CommonRepository>
+  <DefaultUser>
+    <UserName>Admin</UserName>
+    <UserSurrogate>3a18d480-aa46-1da6-6de6-7e34401029aa</UserSurrogate>
+  </DefaultUser>
+  <TCWorkspaceID>07891b10-9a83-4cd4-a4b6-2403aee83b29</TCWorkspaceID>
+  <TCCommonRepositoryID>314f8ab2-ddd5-4b8b-b79b-1c9c4ff918e6</TCCommonRepositoryID>
+  <TCWorkspaceDescription />
+</TCWorkspace>

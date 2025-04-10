@@ -1,0 +1,33 @@
+[3] 07:44:25: Log started for 'C:\Tosca_Projects\Tosca_Workspaces\TestAutomationProject1\TestAutomationProject1.tws'
+[3] 07:44:25: Log level: 4
+[3] 07:44:25: Release: 16.0.5.3129
+[3] 07:44:25: Execution Approval is disabled.
+[3] 07:44:25: Using the following service discovery: http://localhost/#/
+[3] 07:44:25: ShouldSetAuthorizationHeader = False.
+[3] 07:44:25:  + CloudDistributedExecutionAddIn: CloudDistributedExecutionAddIn 16.0.5.3129 (3129)
+[3] 07:44:25:  + DistributedExecutionAddIn: DistributedExecutionAddIn 16.0.5.3129 (3129)
+[3] 07:44:25:  + ElasticExecutionGridAddIn: ElasticExecutionGridAddIn 16.0.5.3129 (3129)
+[3] 07:44:25:  - ExecutionApprovalAddIn: ExecutionApprovalAddIn 16.0.5.3129 (3129)
+[3] 07:44:25:  + ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 16.0.5.3129 (3129)
+[3] 07:44:25:  + ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 16.0.5.3129 (3129)
+[3] 07:44:25:  + IntegrationManagementAddIn: IntegrationManagementAddIn 16.0.5.3129 (3129)
+    + : SAPSolutionManagerIntegration 16.0.5.3129 (3129)
+[3] 07:44:25: Search started on 1 objects for query '->PROJECT->SUBPARTS:TCFolder[Name=="Execution"]->SUBPARTS:TCFolder=>SUBPARTS:InteractiveSession'
+[3] 07:44:25: Searcher found 0 results in 109.7789 ms
+[3] 07:44:26:  + OptIntAddIn: OptIntAddIn 16.0.5.3129 (3129)
+[3] 07:44:26:  + QTestIntegrationAddIn: QTestIntegrationAddIn 16.0.5.3129 (3129)
+[3] 07:44:26:  + RemoteControl: RemoteControlAddIn 16.0.5.3129 (3129)
+[3] 07:44:26:  + Reporting: ReportingAddIn 16.0.5.3129 (3129)
+[3] 07:44:26:  + ReportingUI: ReportingUIAddIn 16.0.5.3129 (3129)
+[3] 07:44:26:  + RequirementsManagementAddIn: RequirementsManagement 16.0.5.3129 (3129)
+[3] 07:44:26:  + RequirementsManagementUIAddIn: RequirementsManagementUI 16.0.5.3129 (3129)
+[3] 07:44:26:  + SAPCloudAlmAddIn: SAPCloudAlmAddIn 16.0.5.3129 (3129)
+[3] 07:44:26:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 16.0.5.3129 (3129)
+[3] 07:44:26:  + TestCaseDesign: TestCaseDesign 16.0.5.3129 (3129)
+[3] 07:44:26:  + ControlFlowDiagram: TestCaseVisualizationAddIn 16.0.5.3129 (3129)
+[3] 07:44:26:  + XDefinitions: XDefinitions 16.0.5.3129 (3129)
+[3] 07:44:26:  + XDefinitionsUI: XDefinitionsUI 16.0.5.3129 (3129)
+[3] 07:44:26: Opened from Workspace File 'C:\Tosca_Projects\Tosca_Workspaces\TestAutomationProject1\TestAutomationProject1.tws'
+[3] 07:44:35: Layout not saved: No Panels or Tabbed Documents
+[3] 07:44:41: Closing Workspace!
+[3] 07:44:41: Log closed!

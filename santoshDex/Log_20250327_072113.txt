@@ -1,0 +1,139 @@
+[3] 07:21:13: Log started for 'C:\Tosca_Projects\Tosca_Workspaces\santoshDex\santoshDex.tws'
+[3] 07:21:13: Log level: 4
+[3] 07:21:13: Release: 16.0.5.3129
+[3] 07:21:14: Execution Approval is disabled.
+[3] 07:21:14: Using the following service discovery: http://localhost/#/
+[3] 07:21:14: File Service is disabled.
+[3] 07:21:14: ShouldSetAuthorizationHeader = False.
+[3] 07:21:14:  + CloudDistributedExecutionAddIn: CloudDistributedExecutionAddIn 16.0.5.3129 (3129)
+[3] 07:21:14:  + DistributedExecutionAddIn: DistributedExecutionAddIn 16.0.5.3129 (3129)
+[3] 07:21:14:  + ElasticExecutionGridAddIn: ElasticExecutionGridAddIn 16.0.5.3129 (3129)
+[3] 07:21:14:  - ExecutionApprovalAddIn: ExecutionApprovalAddIn 16.0.5.3129 (3129)
+[3] 07:21:14:  + ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 16.0.5.3129 (3129)
+[3] 07:21:14:  + ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 16.0.5.3129 (3129)
+[3] 07:21:14:  + IntegrationManagementAddIn: IntegrationManagementAddIn 16.0.5.3129 (3129)
+    + : SAPSolutionManagerIntegration 16.0.5.3129 (3129)
+[3] 07:21:14: Search started on 1 objects for query '->PROJECT->SUBPARTS:TCFolder[Name=="Execution"]->SUBPARTS:TCFolder=>SUBPARTS:InteractiveSession'
+[3] 07:21:14: Searcher found 0 results in 63.2757 ms
+[3] 07:21:14:  + OptIntAddIn: OptIntAddIn 16.0.5.3129 (3129)
+[3] 07:21:14:  + QTestIntegrationAddIn: QTestIntegrationAddIn 16.0.5.3129 (3129)
+[3] 07:21:14:  + RemoteControl: RemoteControlAddIn 16.0.5.3129 (3129)
+[3] 07:21:14:  + Reporting: ReportingAddIn 16.0.5.3129 (3129)
+[3] 07:21:14:  + ReportingUI: ReportingUIAddIn 16.0.5.3129 (3129)
+[3] 07:21:14:  + RequirementsManagementAddIn: RequirementsManagement 16.0.5.3129 (3129)
+[3] 07:21:14:  + RequirementsManagementUIAddIn: RequirementsManagementUI 16.0.5.3129 (3129)
+[3] 07:21:14:  + SAPCloudAlmAddIn: SAPCloudAlmAddIn 16.0.5.3129 (3129)
+[3] 07:21:14:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 16.0.5.3129 (3129)
+[3] 07:21:14:  + TestCaseDesign: TestCaseDesign 16.0.5.3129 (3129)
+[3] 07:21:14:  + ControlFlowDiagram: TestCaseVisualizationAddIn 16.0.5.3129 (3129)
+[3] 07:21:14:  + XDefinitions: XDefinitions 16.0.5.3129 (3129)
+[3] 07:21:14:  + XDefinitionsUI: XDefinitionsUI 16.0.5.3129 (3129)
+[3] 07:21:14: Opened from Workspace File 'C:\Tosca_Projects\Tosca_Workspaces\santoshDex\santoshDex.tws'
+[3] 07:21:15: Error getting ldap domain: The specified domain does not exist or cannot be contacted.
+[3] 07:21:15: Trying to authenticate ldap user Nayak against workspace
+[3] 07:21:15: Error getting ldap domain: The specified domain does not exist or cannot be contacted.
+[3] 07:21:15: Error getting NativeID From WindowsUserSystem.Runtime.InteropServices.COMException (0x8007054B): The specified domain either does not exist or could not be contacted.
+
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_AdsObject()
+   at System.DirectoryServices.PropertyValueCollection.PopulateList()
+   at System.DirectoryServices.PropertyValueCollection..ctor(DirectoryEntry entry, String propertyName)
+   at System.DirectoryServices.PropertyCollection.get_Item(String propertyName)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.RefreshCache()
+   at Tricentis.TCCore.Base.Ownership.LDAP.LDAPAuthentication.getNativeID(String username, String domainname, String password, Boolean processIdentityMustMatch, Action`1 ldapsConnectionFailedAction)
+[3] 07:21:15: Failed to authenticate ldap user against workspace
+[3] 07:21:17: Workspace.Login for 'Admin'succeeded
+[4] 07:21:18:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 07:21:18:  ShowStatusInfo: 'Refresh all finished'
+[4] 07:21:18:  ShowStatusInfo: 'Ready'
+[4] 07:21:22:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 07:21:22:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 07:21:22:  ShowStatusInfo: 'Ready'
+[4] 07:21:22:  ShowStatusInfo: 'Refresh navigation view 'Requirements''
+[4] 07:21:22:  ShowStatusInfo: 'Refresh navigation view 'TestCaseDesign''
+[4] 07:21:22:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 07:21:22:  ShowStatusInfo: 'Refresh navigation view 'Issues''
+[4] 07:21:22:  ShowStatusInfo: 'Refresh navigation view 'Configurations''
+[4] 07:21:22:  ShowStatusInfo: 'Refresh navigation view 'TestPlanning''
+[4] 07:21:22:  ShowStatusInfo: 'Refresh navigation view 'Data Integrity Testing''
+[4] 07:21:22:  ShowStatusInfo: 'Refresh navigation view 'santoshDex''
+[4] 07:21:22:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 07:21:22:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 07:21:22:  ShowStatusInfo: 'Ready'
+[4] 07:21:23:  ShowStatusInfo: 'Refresh detail view 'Requirements''
+[4] 07:21:23:  ShowStatusInfo: 'Refresh detail view 'TestCaseDesign''
+[4] 07:21:23:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 07:21:23:  ShowStatusInfo: 'Refresh detail view 'Issues''
+[4] 07:21:23:  ShowStatusInfo: 'Refresh detail view 'Configurations''
+[4] 07:21:23:  ShowStatusInfo: 'Refresh detail view 'TestPlanning''
+[4] 07:21:23:  ShowStatusInfo: 'Refresh detail view 'Data Integrity Testing''
+[4] 07:21:23:  ShowStatusInfo: 'Refresh detail view 'santoshDex''
+[4] 07:21:23:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 07:21:23:  ShowStatusInfo: 'Refresh all finished'
+[4] 07:21:23:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 07:21:23:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 07:21:23:  ShowStatusInfo: 'Refresh navigation view 'Modules''
+[4] 07:21:23:  ShowStatusInfo: 'Ready'
+[4] 07:21:23:  ShowStatusInfo: 'Refresh navigation view 'Requirements''
+[4] 07:21:23:  ShowStatusInfo: 'Refresh navigation view 'TestCaseDesign''
+[4] 07:21:23:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 07:21:23:  ShowStatusInfo: 'Refresh navigation view 'Issues''
+[4] 07:21:23:  ShowStatusInfo: 'Refresh navigation view 'Configurations''
+[4] 07:21:23:  ShowStatusInfo: 'Refresh navigation view 'TestPlanning''
+[4] 07:21:23:  ShowStatusInfo: 'Refresh navigation view 'Data Integrity Testing''
+[4] 07:21:23:  ShowStatusInfo: 'Refresh navigation view 'santoshDex''
+[4] 07:21:23:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 07:21:23:  ShowStatusInfo: 'Refresh detail view 'Modules''
+[4] 07:21:23:  ShowStatusInfo: 'Ready'
+[4] 07:21:23:  ShowStatusInfo: 'Refresh detail view 'Requirements''
+[4] 07:21:23:  ShowStatusInfo: 'Refresh detail view 'TestCaseDesign''
+[4] 07:21:23:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 07:21:23:  ShowStatusInfo: 'Refresh detail view 'Issues''
+[4] 07:21:23:  ShowStatusInfo: 'Refresh detail view 'Configurations''
+[4] 07:21:23:  ShowStatusInfo: 'Refresh detail view 'TestPlanning''
+[4] 07:21:23:  ShowStatusInfo: 'Refresh detail view 'Data Integrity Testing''
+[4] 07:21:23:  ShowStatusInfo: 'Refresh detail view 'santoshDex''
+[4] 07:21:23:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 07:21:23:  ShowStatusInfo: 'Refresh all finished'
+[3] 07:21:23: OpenWorkspace took 00:00:11.8024479 to finish
+[3] 07:21:23: File Service is disabled.
+[4] 07:21:28:  ShowStatusInfo: 'Ready'
+[4] 07:21:35:  ShowStatusInfo: 'Refresh navigation view 'Requirements''
+[4] 07:21:35:  ShowStatusInfo: 'Ready'
+[4] 07:21:35:  ShowStatusInfo: 'Refresh detail view 'Requirements''
+[4] 07:21:35:  ShowStatusInfo: 'Ready'
+[4] 07:21:35:  ShowStatusInfo: 'Refresh view finished'
+[4] 07:21:36:  ShowStatusInfo: 'Refresh navigation view 'TestCaseDesign''
+[4] 07:21:36:  ShowStatusInfo: 'Ready'
+[4] 07:21:36:  ShowStatusInfo: 'Refresh detail view 'TestCaseDesign''
+[4] 07:21:36:  ShowStatusInfo: 'Ready'
+[4] 07:21:36:  ShowStatusInfo: 'Refresh view finished'
+[4] 07:21:38:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 07:21:38:  ShowStatusInfo: 'Ready'
+[4] 07:21:38:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 07:21:38:  ShowStatusInfo: 'Ready'
+[4] 07:21:38:  ShowStatusInfo: 'Refresh view finished'
+[4] 07:21:41:  ShowStatusInfo: 'Refresh navigation view 'santoshDex''
+[4] 07:21:41:  ShowStatusInfo: 'Ready'
+[4] 07:21:41:  ShowStatusInfo: 'Refresh detail view 'santoshDex''
+[4] 07:21:41:  ShowStatusInfo: 'Ready'
+[4] 07:21:41:  ShowStatusInfo: 'Refresh view finished'
+[4] 07:21:46:  ShowStatusInfo: 'Ready'
+[4] 07:21:49:  ShowStatusInfo: '1 object selected'
+[4] 07:21:50:  ShowStatusInfo: 'Ready'
+[4] 07:21:50:  ShowStatusInfo: '1 object selected'
+[4] 07:21:51:  ShowStatusInfo: 'Ready'
+[4] 07:21:52:  ShowStatusInfo: '1 object selected'
+[4] 07:21:53:  ShowStatusInfo: 'Ready'
+[4] 07:21:53:  ShowStatusInfo: '1 object selected'
+[4] 07:21:55:  ShowStatusInfo: 'Ready'
+[4] 07:21:55:  ShowStatusInfo: '1 object selected'
+[4] 07:21:55:  ShowStatusInfo: 'Ready'
+[4] 07:21:56:  ShowStatusInfo: '1 object selected'
+[4] 07:21:58:  ShowStatusInfo: 'Ready'
+[4] 07:21:58:  ShowStatusInfo: '1 object selected'
+[3] 07:22:02: Closing Workspace!
+[3] 07:22:02: Log closed!

@@ -1,0 +1,97 @@
+[3] 07:22:28: Log started for 'C:\Tosca_Projects\Tosca_Workspaces\TestAutomation\TestAutomation.tws'
+[3] 07:22:28: Log level: 4
+[3] 07:22:28: Release: 16.0.5.3129
+[3] 07:22:28: Execution Approval is disabled.
+[3] 07:22:28: Using the following service discovery: http://localhost/#/
+[3] 07:22:28: File Service is disabled.
+[3] 07:22:29: ShouldSetAuthorizationHeader = False.
+[3] 07:22:29:  + CloudDistributedExecutionAddIn: CloudDistributedExecutionAddIn 16.0.5.3129 (3129)
+[3] 07:22:29:  + DistributedExecutionAddIn: DistributedExecutionAddIn 16.0.5.3129 (3129)
+[3] 07:22:29:  + ElasticExecutionGridAddIn: ElasticExecutionGridAddIn 16.0.5.3129 (3129)
+[3] 07:22:29:  - ExecutionApprovalAddIn: ExecutionApprovalAddIn 16.0.5.3129 (3129)
+[3] 07:22:29:  + ExploratoryTestingAssistant: ExploratoryTestingAssistantAddIn 16.0.5.3129 (3129)
+[3] 07:22:29:  + ExploratoryTestingAssistantUI: ExploratoryTestingAssistantUIAddIn 16.0.5.3129 (3129)
+[3] 07:22:29:  + IntegrationManagementAddIn: IntegrationManagementAddIn 16.0.5.3129 (3129)
+    + : SAPSolutionManagerIntegration 16.0.5.3129 (3129)
+[3] 07:22:29: Search started on 1 objects for query '->PROJECT->SUBPARTS:TCFolder[Name=="Execution"]->SUBPARTS:TCFolder=>SUBPARTS:InteractiveSession'
+[3] 07:22:29: Searcher found 0 results in 62.2835 ms
+[3] 07:22:29:  + OptIntAddIn: OptIntAddIn 16.0.5.3129 (3129)
+[3] 07:22:29:  + QTestIntegrationAddIn: QTestIntegrationAddIn 16.0.5.3129 (3129)
+[3] 07:22:29:  + RemoteControl: RemoteControlAddIn 16.0.5.3129 (3129)
+[3] 07:22:29:  + Reporting: ReportingAddIn 16.0.5.3129 (3129)
+[3] 07:22:29:  + ReportingUI: ReportingUIAddIn 16.0.5.3129 (3129)
+[3] 07:22:29:  + RequirementsManagementAddIn: RequirementsManagement 16.0.5.3129 (3129)
+[3] 07:22:29:  + RequirementsManagementUIAddIn: RequirementsManagementUI 16.0.5.3129 (3129)
+[3] 07:22:29:  + SAPCloudAlmAddIn: SAPCloudAlmAddIn 16.0.5.3129 (3129)
+[3] 07:22:29:  + SAPSolutionManagerAddIn: SAPSolutionManagerAddIn 16.0.5.3129 (3129)
+[3] 07:22:29:  + TestCaseDesign: TestCaseDesign 16.0.5.3129 (3129)
+[3] 07:22:29:  + ControlFlowDiagram: TestCaseVisualizationAddIn 16.0.5.3129 (3129)
+[3] 07:22:29:  + XDefinitions: XDefinitions 16.0.5.3129 (3129)
+[3] 07:22:29:  + XDefinitionsUI: XDefinitionsUI 16.0.5.3129 (3129)
+[3] 07:22:29: Opened from Workspace File 'C:\Tosca_Projects\Tosca_Workspaces\TestAutomation\TestAutomation.tws'
+[3] 07:22:29: Error getting ldap domain: The specified domain does not exist or cannot be contacted.
+[3] 07:22:29: Trying to authenticate ldap user Nayak against workspace
+[3] 07:22:29: Error getting ldap domain: The specified domain does not exist or cannot be contacted.
+[3] 07:22:29: Error getting NativeID From WindowsUserSystem.Runtime.InteropServices.COMException (0x8007054B): The specified domain either does not exist or could not be contacted.
+
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.get_AdsObject()
+   at System.DirectoryServices.PropertyValueCollection.PopulateList()
+   at System.DirectoryServices.PropertyValueCollection..ctor(DirectoryEntry entry, String propertyName)
+   at System.DirectoryServices.PropertyCollection.get_Item(String propertyName)
+   at System.DirectoryServices.DirectoryEntry.Bind(Boolean throwIfFail)
+   at System.DirectoryServices.DirectoryEntry.Bind()
+   at System.DirectoryServices.DirectoryEntry.RefreshCache()
+   at Tricentis.TCCore.Base.Ownership.LDAP.LDAPAuthentication.getNativeID(String username, String domainname, String password, Boolean processIdentityMustMatch, Action`1 ldapsConnectionFailedAction)
+[3] 07:22:29: Failed to authenticate ldap user against workspace
+[3] 07:22:31: Workspace.Login for 'Admin'succeeded
+[4] 07:22:32:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 07:22:32:  ShowStatusInfo: 'Refresh all finished'
+[4] 07:22:32:  ShowStatusInfo: 'Ready'
+[4] 07:22:36:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 07:22:36:  ShowStatusInfo: 'Ready'
+[4] 07:22:36:  ShowStatusInfo: 'Refresh navigation view 'Requirements''
+[4] 07:22:36:  ShowStatusInfo: 'Refresh navigation view 'TestCaseDesign''
+[4] 07:22:36:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 07:22:36:  ShowStatusInfo: 'Refresh navigation view 'Issues''
+[4] 07:22:36:  ShowStatusInfo: 'Refresh navigation view 'Configurations''
+[4] 07:22:36:  ShowStatusInfo: 'Refresh navigation view 'TestPlanning''
+[4] 07:22:36:  ShowStatusInfo: 'Refresh navigation view 'Data Integrity Testing''
+[4] 07:22:36:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 07:22:36:  ShowStatusInfo: 'Ready'
+[4] 07:22:36:  ShowStatusInfo: 'Refresh detail view 'Requirements''
+[4] 07:22:36:  ShowStatusInfo: 'Refresh detail view 'TestCaseDesign''
+[4] 07:22:36:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 07:22:36:  ShowStatusInfo: 'Refresh detail view 'Issues''
+[4] 07:22:36:  ShowStatusInfo: 'Refresh detail view 'Configurations''
+[4] 07:22:36:  ShowStatusInfo: 'Refresh detail view 'TestPlanning''
+[4] 07:22:36:  ShowStatusInfo: 'Refresh detail view 'Data Integrity Testing''
+[4] 07:22:36:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 07:22:36:  ShowStatusInfo: 'Refresh all finished'
+[4] 07:22:36:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 07:22:37:  ShowStatusInfo: 'Refresh navigation view 'TestCases''
+[4] 07:22:37:  ShowStatusInfo: 'Ready'
+[4] 07:22:37:  ShowStatusInfo: 'Refresh navigation view 'Requirements''
+[4] 07:22:37:  ShowStatusInfo: 'Refresh navigation view 'TestCaseDesign''
+[4] 07:22:37:  ShowStatusInfo: 'Refresh navigation view 'Execution''
+[4] 07:22:37:  ShowStatusInfo: 'Refresh navigation view 'Issues''
+[4] 07:22:37:  ShowStatusInfo: 'Refresh navigation view 'Configurations''
+[4] 07:22:37:  ShowStatusInfo: 'Refresh navigation view 'TestPlanning''
+[4] 07:22:37:  ShowStatusInfo: 'Refresh navigation view 'Data Integrity Testing''
+[4] 07:22:37:  ShowStatusInfo: 'Refresh detail view 'TestCases''
+[4] 07:22:37:  ShowStatusInfo: 'Ready'
+[4] 07:22:37:  ShowStatusInfo: 'Refresh detail view 'Requirements''
+[4] 07:22:37:  ShowStatusInfo: 'Refresh detail view 'TestCaseDesign''
+[4] 07:22:37:  ShowStatusInfo: 'Refresh detail view 'Execution''
+[4] 07:22:37:  ShowStatusInfo: 'Refresh detail view 'Issues''
+[4] 07:22:37:  ShowStatusInfo: 'Refresh detail view 'Configurations''
+[4] 07:22:37:  ShowStatusInfo: 'Refresh detail view 'TestPlanning''
+[4] 07:22:37:  ShowStatusInfo: 'Refresh detail view 'Data Integrity Testing''
+[4] 07:22:37:  ShowStatusInfo: 'Refresh  'WindowLabels''
+[4] 07:22:37:  ShowStatusInfo: 'Refresh all finished'
+[3] 07:22:37: OpenWorkspace took 00:00:10.2188554 to finish
+[3] 07:22:37: File Service is disabled.
+[4] 07:22:42:  ShowStatusInfo: 'Ready'
+[3] 07:22:55: Closing Workspace!
+[3] 07:22:55: Log closed!

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TCWorkspace xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WorkspaceRepository>
+    <RepoClass>SQLiteRepository</RepoClass>
+    <DatabasePathAndName>.\Repository\Santhosh Nayak Tosca Project.db</DatabasePathAndName>
+    <Database>C:\Tosca_Projects\Tosca_Workspaces\Santhosh Nayak Tosca Project\Repository\Santhosh Nayak Tosca Project.db</Database>
+    <DatabaseUser />
+    <DatabasePwd />
+    <DatabaseSchema />
+  </WorkspaceRepository>
+  <CommonRepository>
+    <RepoClass>SQLiteRepository</RepoClass>
+    <DatabasePathAndName>C:\Tosca_Projects\TOSCA_CommonRepositories\Santhosh Nayak Tosca Project\CommonRepository\CommonRepository.db</DatabasePathAndName>
+    <Database>C:\Tosca_Projects\TOSCA_CommonRepositories\Santhosh Nayak Tosca Project\CommonRepository\CommonRepository.db</Database>
+    <DatabaseUser />
+    <DatabasePwd />
+    <DatabaseSchema />
+  </CommonRepository>
+  <DefaultUser>
+    <UserName>Admin</UserName>
+    <UserSurrogate>3a1805aa-a798-1458-b6ad-0eb0ee8b9269</UserSurrogate>
+  </DefaultUser>
+  <TCWorkspaceID>72b16b1f-a4a2-455c-ba04-6c2f6722754d</TCWorkspaceID>
+  <TCCommonRepositoryID>a65d00a5-8e98-4eac-94c0-8af9ff18604c</TCCommonRepositoryID>
+  <TCWorkspaceDescription />
+</TCWorkspace>

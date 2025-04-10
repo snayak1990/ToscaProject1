@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TCWorkspace xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WorkspaceRepository>
+    <RepoClass>SQLiteRepository</RepoClass>
+    <DatabasePathAndName>.\Repository\wgsclaims2.db</DatabasePathAndName>
+    <Database>C:\Tosca_Projects\Tosca_Workspaces\wgsclaims2\Repository\wgsclaims2.db</Database>
+    <DatabaseUser />
+    <DatabasePwd />
+    <DatabaseSchema />
+  </WorkspaceRepository>
+  <CommonRepository>
+    <RepoClass>null</RepoClass>
+  </CommonRepository>
+  <DefaultUser>
+    <UserName>deepak</UserName>
+    <UserSurrogate>3a1814e1-dd54-2ee4-185e-149cbea17006</UserSurrogate>
+  </DefaultUser>
+  <TCWorkspaceID>79462608-31f8-4358-9e96-330bb0704581</TCWorkspaceID>
+  <TCCommonRepositoryID />
+  <TCWorkspaceDescription />
+</TCWorkspace>
